@@ -1,0 +1,6 @@
+framework module Pods_CalHacksUITests {
+  umbrella header "Pods-CalHacksUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

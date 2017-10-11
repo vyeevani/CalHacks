@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528BAEE5BE6F2385774720354737A01D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5ED254AF0C9780C8A3DB44EE60208DE2 /* Pods-CalHacksTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99B4B812D722A065538884193252819D /* Pods-CalHacksTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7191D6398535A795F4DA27E8BC240A9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9065CFBCB4697F18BFF9F1B0851A2F65 /* Pods-CalHacksUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E562F91D4930B6B7523EC0954F5D64F8 /* Pods-CalHacksUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90AB328A61F55C7BB1FED4A734DBD6F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A2967B891B8126AA9D7BBAEF83D7EC60 /* Pods-CalHacks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B052E022135A0220A4736A1D6DCEBC21 /* Pods-CalHacks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A466A814E0558631E2DA2C6AAD211DD2 /* Pods-CalHacksUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC49611B19104A6D3B86262FF412DC0C /* Pods-CalHacksUITests-dummy.m */; };
+		BF8C5DA4D0D5B844799C71A22B6AB3B7 /* Pods-CalHacks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17919E7F7FA1D1A0715C109094182F74 /* Pods-CalHacks-dummy.m */; };
+		F85DD6F4BDD3DD3F00CA6B3E01435C1C /* Pods-CalHacksTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B76F8424402CFEE377E518A7A001866 /* Pods-CalHacksTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F6250BAE1F68CD075A7CF839AA5FC42 /* Pods-CalHacksUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalHacksUITests-resources.sh"; sourceTree = "<group>"; };
+		11B0837AAA9DC9F01AE0E743922C53D8 /* Pods-CalHacksTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CalHacksTests.modulemap"; sourceTree = "<group>"; };
+		14366AC844E78BF61F1A029616CB20F7 /* Pods_CalHacksTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CalHacksTests.framework; path = "Pods-CalHacksTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17919E7F7FA1D1A0715C109094182F74 /* Pods-CalHacks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalHacks-dummy.m"; sourceTree = "<group>"; };
+		26D6E69318898AFBE5393812EAF6D8B7 /* Pods-CalHacksUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CalHacksUITests.modulemap"; sourceTree = "<group>"; };
+		29F2265C8A0B6ED59D87B9E0BF6F10D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		345970A524B4FEBF1C9137DC2591CA04 /* Pods-CalHacksTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalHacksTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3785CC93C01B2D71ACB22D32266CE9AB /* Pods-CalHacksUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalHacksUITests.release.xcconfig"; sourceTree = "<group>"; };
+		384888450A59DAAA85E9191D8AA4C19F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6D40F04A9A4774A4397E21B0DFE95E /* Pods-CalHacksUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalHacksUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B76F8424402CFEE377E518A7A001866 /* Pods-CalHacksTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalHacksTests-dummy.m"; sourceTree = "<group>"; };
+		4DD6C1C065B8ADB5F9002EBA7DCF5323 /* Pods-CalHacksTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalHacksTests.release.xcconfig"; sourceTree = "<group>"; };
+		55E3BE596E392646499A516DE45EC16A /* Pods-CalHacksUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalHacksUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5C58A67491E20A1E92D9695083029689 /* Pods_CalHacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CalHacks.framework; path = "Pods-CalHacks.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F882F5C13E13AB3AABB4940CEF617BD /* Pods_CalHacksUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CalHacksUITests.framework; path = "Pods-CalHacksUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		604416CBE56C07C706DFD14BC7F386E2 /* Pods-CalHacksTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalHacksTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61BC12A3A83A7917C9F6618291BE8EA7 /* Pods-CalHacks-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalHacks-frameworks.sh"; sourceTree = "<group>"; };
+		61EB813EB7BE2F8088D7FB275774015C /* Pods-CalHacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalHacks.release.xcconfig"; sourceTree = "<group>"; };
+		61FDD28AC60C12FF4EFB23512EE08DA6 /* Pods-CalHacks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CalHacks.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C4F59B3FF445FA65CF470975CBB7E63 /* Pods-CalHacksUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalHacksUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		87E45CA8E3B680FBABFB47365AA275A2 /* Pods-CalHacks-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalHacks-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EAC20BF0839C0BD700E9CEFB251F7DA /* Pods-CalHacksUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CalHacksUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99B4B812D722A065538884193252819D /* Pods-CalHacksTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CalHacksTests-umbrella.h"; sourceTree = "<group>"; };
+		A4CF82BDFFCA4A0477D134204D080786 /* Pods-CalHacks-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalHacks-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE68DCEE0E4C3BAB311693A2A8E94F4A /* Pods-CalHacksTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalHacksTests-resources.sh"; sourceTree = "<group>"; };
+		B052E022135A0220A4736A1D6DCEBC21 /* Pods-CalHacks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CalHacks-umbrella.h"; sourceTree = "<group>"; };
+		BFC6009EFE16A9043C687EC041C2EA55 /* Pods-CalHacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CalHacks.debug.xcconfig"; sourceTree = "<group>"; };
+		C2E019642DCD0208D1BAC1E5C92FFFF5 /* Pods-CalHacksTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalHacksTests-frameworks.sh"; sourceTree = "<group>"; };
+		D9847B053841269235E9E064A4C25AFE /* Pods-CalHacksTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CalHacksTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC49611B19104A6D3B86262FF412DC0C /* Pods-CalHacksUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CalHacksUITests-dummy.m"; sourceTree = "<group>"; };
+		E562F91D4930B6B7523EC0954F5D64F8 /* Pods-CalHacksUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CalHacksUITests-umbrella.h"; sourceTree = "<group>"; };
+		E7D345E9A6FF275643BEAFF3D6045DE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F88D2559AF449103E3786608394DAEF4 /* Pods-CalHacks-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CalHacks-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30CEC8624BBADB9805D1A354D41B27E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7191D6398535A795F4DA27E8BC240A9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D23A132769C2747ABF5C9756B71B170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90AB328A61F55C7BB1FED4A734DBD6F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31F6D07491EE5D12D402EFFFAA93BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528BAEE5BE6F2385774720354737A01D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394A5ABE21AB5755B8E9F9987EF98955 /* Pods-CalHacks */ = {
+			isa = PBXGroup;
+			children = (
+				E7D345E9A6FF275643BEAFF3D6045DE4 /* Info.plist */,
+				61FDD28AC60C12FF4EFB23512EE08DA6 /* Pods-CalHacks.modulemap */,
+				87E45CA8E3B680FBABFB47365AA275A2 /* Pods-CalHacks-acknowledgements.markdown */,
+				A4CF82BDFFCA4A0477D134204D080786 /* Pods-CalHacks-acknowledgements.plist */,
+				17919E7F7FA1D1A0715C109094182F74 /* Pods-CalHacks-dummy.m */,
+				61BC12A3A83A7917C9F6618291BE8EA7 /* Pods-CalHacks-frameworks.sh */,
+				F88D2559AF449103E3786608394DAEF4 /* Pods-CalHacks-resources.sh */,
+				B052E022135A0220A4736A1D6DCEBC21 /* Pods-CalHacks-umbrella.h */,
+				BFC6009EFE16A9043C687EC041C2EA55 /* Pods-CalHacks.debug.xcconfig */,
+				61EB813EB7BE2F8088D7FB275774015C /* Pods-CalHacks.release.xcconfig */,
+			);
+			name = "Pods-CalHacks";
+			path = "Target Support Files/Pods-CalHacks";
+			sourceTree = "<group>";
+		};
+		6C6751226DFB6E29356976903F57C480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C58A67491E20A1E92D9695083029689 /* Pods_CalHacks.framework */,
+				14366AC844E78BF61F1A029616CB20F7 /* Pods_CalHacksTests.framework */,
+				5F882F5C13E13AB3AABB4940CEF617BD /* Pods_CalHacksUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6C6751226DFB6E29356976903F57C480 /* Products */,
+				8A2F0BA773D75C7E3C1F0DF2AAF2B134 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A2F0BA773D75C7E3C1F0DF2AAF2B134 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				394A5ABE21AB5755B8E9F9987EF98955 /* Pods-CalHacks */,
+				BC5C19218A55ECABFE3339C6B80F93DF /* Pods-CalHacksTests */,
+				B8B53E767E89071CBA702A3C14BA3B26 /* Pods-CalHacksUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8B53E767E89071CBA702A3C14BA3B26 /* Pods-CalHacksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29F2265C8A0B6ED59D87B9E0BF6F10D8 /* Info.plist */,
+				26D6E69318898AFBE5393812EAF6D8B7 /* Pods-CalHacksUITests.modulemap */,
+				8EAC20BF0839C0BD700E9CEFB251F7DA /* Pods-CalHacksUITests-acknowledgements.markdown */,
+				6C4F59B3FF445FA65CF470975CBB7E63 /* Pods-CalHacksUITests-acknowledgements.plist */,
+				DC49611B19104A6D3B86262FF412DC0C /* Pods-CalHacksUITests-dummy.m */,
+				55E3BE596E392646499A516DE45EC16A /* Pods-CalHacksUITests-frameworks.sh */,
+				0F6250BAE1F68CD075A7CF839AA5FC42 /* Pods-CalHacksUITests-resources.sh */,
+				E562F91D4930B6B7523EC0954F5D64F8 /* Pods-CalHacksUITests-umbrella.h */,
+				3A6D40F04A9A4774A4397E21B0DFE95E /* Pods-CalHacksUITests.debug.xcconfig */,
+				3785CC93C01B2D71ACB22D32266CE9AB /* Pods-CalHacksUITests.release.xcconfig */,
+			);
+			name = "Pods-CalHacksUITests";
+			path = "Target Support Files/Pods-CalHacksUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC5C19218A55ECABFE3339C6B80F93DF /* Pods-CalHacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				384888450A59DAAA85E9191D8AA4C19F /* Info.plist */,
+				11B0837AAA9DC9F01AE0E743922C53D8 /* Pods-CalHacksTests.modulemap */,
+				345970A524B4FEBF1C9137DC2591CA04 /* Pods-CalHacksTests-acknowledgements.markdown */,
+				D9847B053841269235E9E064A4C25AFE /* Pods-CalHacksTests-acknowledgements.plist */,
+				4B76F8424402CFEE377E518A7A001866 /* Pods-CalHacksTests-dummy.m */,
+				C2E019642DCD0208D1BAC1E5C92FFFF5 /* Pods-CalHacksTests-frameworks.sh */,
+				AE68DCEE0E4C3BAB311693A2A8E94F4A /* Pods-CalHacksTests-resources.sh */,
+				99B4B812D722A065538884193252819D /* Pods-CalHacksTests-umbrella.h */,
+				604416CBE56C07C706DFD14BC7F386E2 /* Pods-CalHacksTests.debug.xcconfig */,
+				4DD6C1C065B8ADB5F9002EBA7DCF5323 /* Pods-CalHacksTests.release.xcconfig */,
+			);
+			name = "Pods-CalHacksTests";
+			path = "Target Support Files/Pods-CalHacksTests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09419A3F75E7395679C318B3F513877C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED254AF0C9780C8A3DB44EE60208DE2 /* Pods-CalHacksTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F52DDD3F8CB5BA3F5EB29F774032E7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9065CFBCB4697F18BFF9F1B0851A2F65 /* Pods-CalHacksUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE617DD7D41D69BF6AD123C7EF4B0B79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2967B891B8126AA9D7BBAEF83D7EC60 /* Pods-CalHacks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A45D92748F7104BC7B46791D2810C8CA /* Pods-CalHacksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3974D0F2D0A5A152903EDABC14B0D9D /* Build configuration list for PBXNativeTarget "Pods-CalHacksUITests" */;
+			buildPhases = (
+				23CB6231B3A2F18156D5A1C32B34759A /* Sources */,
+				8D23A132769C2747ABF5C9756B71B170 /* Frameworks */,
+				0F52DDD3F8CB5BA3F5EB29F774032E7D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CalHacksUITests";
+			productName = "Pods-CalHacksUITests";
+			productReference = 5F882F5C13E13AB3AABB4940CEF617BD /* Pods_CalHacksUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6CF27EE97D839A01AB4E3C189CC99BC /* Pods-CalHacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25E0F3E5C7D75259CDAD1D7E47B8E19 /* Build configuration list for PBXNativeTarget "Pods-CalHacksTests" */;
+			buildPhases = (
+				C417CD473603F5B90C4F4A32EC56842E /* Sources */,
+				30CEC8624BBADB9805D1A354D41B27E1 /* Frameworks */,
+				09419A3F75E7395679C318B3F513877C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CalHacksTests";
+			productName = "Pods-CalHacksTests";
+			productReference = 14366AC844E78BF61F1A029616CB20F7 /* Pods_CalHacksTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBEBA4C0FF5888D6C8BE83015E19C82C /* Pods-CalHacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B9E3673F1EB5E5904D5F86F72DE43FB /* Build configuration list for PBXNativeTarget "Pods-CalHacks" */;
+			buildPhases = (
+				D6D1B342B0BBB32CBADD897A52C55CD9 /* Sources */,
+				B31F6D07491EE5D12D402EFFFAA93BCE /* Frameworks */,
+				FE617DD7D41D69BF6AD123C7EF4B0B79 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CalHacks";
+			productName = "Pods-CalHacks";
+			productReference = 5C58A67491E20A1E92D9695083029689 /* Pods_CalHacks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6C6751226DFB6E29356976903F57C480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBEBA4C0FF5888D6C8BE83015E19C82C /* Pods-CalHacks */,
+				B6CF27EE97D839A01AB4E3C189CC99BC /* Pods-CalHacksTests */,
+				A45D92748F7104BC7B46791D2810C8CA /* Pods-CalHacksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23CB6231B3A2F18156D5A1C32B34759A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A466A814E0558631E2DA2C6AAD211DD2 /* Pods-CalHacksUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417CD473603F5B90C4F4A32EC56842E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85DD6F4BDD3DD3F00CA6B3E01435C1C /* Pods-CalHacksTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D1B342B0BBB32CBADD897A52C55CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF8C5DA4D0D5B844799C71A22B6AB3B7 /* Pods-CalHacks-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1869F47AB88E6344854C46450641E3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD6C1C065B8ADB5F9002EBA7DCF5323 /* Pods-CalHacksTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CalHacksTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CalHacksTests/Pods-CalHacksTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CalHacksTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EFB92CF86CD6E274229E6772F924D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EB813EB7BE2F8088D7FB275774015C /* Pods-CalHacks.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CalHacks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CalHacks/Pods-CalHacks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CalHacks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A091BA4AD622D931DF012E01C9ABC3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC6009EFE16A9043C687EC041C2EA55 /* Pods-CalHacks.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CalHacks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CalHacks/Pods-CalHacks.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CalHacks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6204934C1AA2A62B7874738E8B12847F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 604416CBE56C07C706DFD14BC7F386E2 /* Pods-CalHacksTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CalHacksTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CalHacksTests/Pods-CalHacksTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CalHacksTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A74E6C51226683179EED296B9A946595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A6D40F04A9A4774A4397E21B0DFE95E /* Pods-CalHacksUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CalHacksUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CalHacksUITests/Pods-CalHacksUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CalHacksUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CE6E6EF8694D7A4FEE297B5913477182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3785CC93C01B2D71ACB22D32266CE9AB /* Pods-CalHacksUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CalHacksUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CalHacksUITests/Pods-CalHacksUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CalHacksUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B9E3673F1EB5E5904D5F86F72DE43FB /* Build configuration list for PBXNativeTarget "Pods-CalHacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A091BA4AD622D931DF012E01C9ABC3A /* Debug */,
+				2EFB92CF86CD6E274229E6772F924D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3974D0F2D0A5A152903EDABC14B0D9D /* Build configuration list for PBXNativeTarget "Pods-CalHacksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74E6C51226683179EED296B9A946595 /* Debug */,
+				CE6E6EF8694D7A4FEE297B5913477182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25E0F3E5C7D75259CDAD1D7E47B8E19 /* Build configuration list for PBXNativeTarget "Pods-CalHacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6204934C1AA2A62B7874738E8B12847F /* Debug */,
+				1869F47AB88E6344854C46450641E3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
